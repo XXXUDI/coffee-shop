@@ -1,0 +1,26 @@
+.sectionHeader {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.sectionIcon {
+    width: 22px;
+    height: 22px;
+}
+
+.sectionInfo h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #403937;
+    margin: 0 0 2px 0;
+}
+
+.sectionInfo p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #8D8686;
+    margin: 0;
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Expresso Tradicional",
+    "description": "O tradicional café feito com água quente e grãos moídos",
+    "price": 9.90,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg1.png",
+    "tags": ["TRADICIONAL"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  },
+  {
+    "name": "Expresso Americano",
+    "description": "Expresso diluído, menos intenso que o tradicional",
+    "price": 15.90,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg2.png",
+    "tags": ["TRADICIONAL"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  },
+  {
+    "name": "Expresso Cremoso",
+    "description": "Café expresso tradicional com espuma cremosa",
+    "price": 8.00,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg1.png",
+    "tags": ["TRADICIONAL"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  },
+  {
+    "name": "Expresso Gelado",
+    "description": "Bebida preparada com café expresso e cubos de gelo",
+    "price": 9.90,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg2.png",
+    "tags": ["TRADICIONAL", "GELADO"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  },
+  {
+    "name": "Café com Leite",
+    "description": "Meio a meio de expresso tradicional com leite vaporizado",
+    "price": 9.90,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg1.png",
+    "tags": ["TRADICIONAL", "COM LEITE"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  },
+  {
+    "name": "Latte",
+    "description": "Uma dose de café expresso com o dobro de leite e espuma cremosa",
+    "price": 9.90,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg2.png",
+    "tags": ["TRADICIONAL", "COM LEITE"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  },
+  {
+    "name": "Capuccino",
+    "description": "Bebida com canela feita de doses iguais de café, leite e espuma",
+    "price": 9.90,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg1.png",
+    "tags": ["TRADICIONAL", "COM LEITE"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  },
+  {
+    "name": "Macchiato",
+    "description": "Café expresso misturado com um pouco de leite quente e espuma",
+    "price": 9.90,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg2.png",
+    "tags": ["TRADICIONAL", "COM LEITE"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  },
+  {
+    "name": "Mocha",
+    "description": "Café expresso com chocolate quente e leite vaporizado",
+    "price": 12.50,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg1.png",
+    "tags": ["ESPECIAL", "COM LEITE", "DOCE"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  },
+  {
+    "name": "Affogato",
+    "description": "Sobremesa italiana com café expresso quente sobre sorvete de baunilha",
+    "price": 16.90,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg2.png",
+    "tags": ["ESPECIAL", "GELADO", "SOBREMESA"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  },
+  {
+    "name": "Frappé",
+    "description": "Café gelado batido com gelo, leite e chantilly",
+    "price": 14.90,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg1.png",
+    "tags": ["GELADO", "COM LEITE", "ESPECIAL"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  },
+  {
+    "name": "Cold Brew",
+    "description": "Café extraído a frio por 12 horas, sabor suave e menos ácido",
+    "price": 13.90,
+    "imageUrl": "/Icons/coffeeImages/CoffeeImg2.png",
+    "tags": ["GELADO", "ESPECIAL"],
+    "cafeId": "6865de2ede02ff78d35bc68e"
+  }
+]

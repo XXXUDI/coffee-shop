@@ -1,0 +1,20 @@
+.coffeeList {
+    padding: 32px 160px;
+    background-color: #fafafa;
+}
+
+.coffeeList__title {
+    color: #403937;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0;
+    vertical-align: middle;
+}
+
+.coffeeList__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    gap: 32px;
+    margin-top: 32px;
+}

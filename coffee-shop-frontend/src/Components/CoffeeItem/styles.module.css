@@ -1,0 +1,160 @@
+.coffee__cart {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F2F2;
+    border-radius: 6px 40px 6px 40px;
+    padding: 20px;
+
+    justify-content: center;    
+    /* align-items: center; */
+
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.coffee__image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+
+    align-self: center;
+
+    margin-bottom: 10px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    max-width: 100%;
+    max-height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+
+}
+
+.coffee__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.coffee__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #403937;
+}
+
+.coffee__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #8D8686;
+}
+
+.coffee__buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.coffee__price__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+
+    font-family: "Baloo 2", sans-serif;
+    color: #403937;
+}
+
+.coffee__currency {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.coffee__price {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 130%;
+    font-style: bold;    
+}
+
+.coffee__actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.coffee__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 38px;
+    padding: 8px;
+
+    background-color: #4B2995;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+
+    transition: 0.2s ease-in-out;
+}
+
+.coffee__button:hover {
+    background-color: #6F2DBD;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #E6E5E5;
+    border-radius: 6px;
+    padding: 8px 16px;
+}
+
+.counter__number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #403937;
+    font-family: "Roboto", sans-serif;
+}
+
+.counter img {
+    cursor: pointer;
+}
+
+.counter__icon {
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    transition: 0.2s ease-in-out;
+}
+
+.counter__icon:hover {
+    opacity: 0.7;
+}
+
+.coffee__cartIcon {
+    width: 22px;
+    height: 22px;
+    filter: brightness(0) invert(1);
+}

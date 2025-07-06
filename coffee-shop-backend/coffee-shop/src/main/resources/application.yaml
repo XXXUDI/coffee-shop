@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: demo-app
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/coffee-shop
+      database: coffee-shop
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+
+server:
+  port: 8080
+  error:
+    include-message: always # Include error messages in the response
+
+logging:
+  level:
+    root: INFO
+    com.socompany.coffee_shop: DEBUG # Set logging level for the coffee shop
+    org.springframework: INFO # Set logging level for Spring framework
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" # Expose all management endpoints
+  endpoint:
+    health:
+      show-details: always # Always show health details
+  health:
+    db:
+      enabled: true # Enable database health check
+    diskspace:
+      enabled: true # Enable disk space health check
+  metrics:
+    tags:
+      enabled: true # Enable metrics tags

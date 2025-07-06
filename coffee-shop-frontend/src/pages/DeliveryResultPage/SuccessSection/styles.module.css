@@ -1,0 +1,148 @@
+.successSection {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
+.textSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #C47F17;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.subTitle {
+    color: #403937;
+    line-height: 130%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.orderNumber {
+    color: #8047F8;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+.infoSection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 180px;
+}
+
+.deliveryInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 40px;
+    min-width: 340px;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 6px 44px 6px 44px;
+    position: relative;
+    z-index: 1;
+}
+.deliveryInfo::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 1.5px;
+    border-radius: 6px 44px 6px 44px;
+    background: linear-gradient(90deg, #DBAC2C, #8047F8);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.illustration {
+    width: 492px;
+    height: 293px;
+    background-image: url("/images/illustration.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    flex-shrink: 0;
+    align-self: flex-end;
+}
+
+.deliveryAddress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.deliveryTime {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.deliveryPayment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.actionSection {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.backToHomeButton {
+    background: #8047F8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.backToHomeButton:hover {
+    background: #6B37CC;
+}
+
+@media (max-width: 1100px) {
+    .infoSection {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    .illustration {
+        width: 100%;
+        max-width: 400px;
+        height: 220px;
+        align-self: center;
+    }
+}

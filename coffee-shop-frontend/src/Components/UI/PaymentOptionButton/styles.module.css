@@ -1,0 +1,31 @@
+.paymentButton {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    background-color: #E6E5E5;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #403937;
+    transition: 0.2s ease-in-out;
+}
+
+.paymentButton:hover {
+    background-color: #D7D3F9;
+    border-color: #8047F8;
+}
+
+.paymentButton.selected {
+    background-color: #EBE5F9;
+    border-color: #8047F8;
+}
+
+.paymentIcon {
+    width: 16px;
+    height: 16px;
+    color: #8047F8;
+}
